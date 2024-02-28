@@ -1,0 +1,121 @@
+/* Base Styles */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #FFF;
+    margin: 0;
+    padding: 4rem 2rem;
+    /* Ample whitespace */
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 4rem;
+    /* More whitespace */
+}
+
+.profile-pic {
+    width: 80px;
+    /* Even smaller for ultra minimalism */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem;
+    /* Centered alignment */
+    border: 2px solid #2c3e50;
+    /* Subtle border */
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 4rem;
+    /* Increased bottom margin */
+}
+
+nav ul li {
+    padding: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Sections */
+section {
+    margin-bottom: 3rem;
+    /* Increased margin for separation */
+    max-width: 650px;
+    /* Narrower width for focus */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    border-bottom: 1px solid #eee;
+    /* Subtle separation */
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.875rem;
+    color: #aaa;
+    /* More subdued footer */
+    margin-top: 4rem;
+}
+
+/* No Box Shadows, Backgrounds, or Additional Borders */
+/* Simplified List Styles */
+ul {
+    list-style-type: none;
+    /* No bullets for ultra minimalism */
+    padding: 0;
+}
+
+li {
+    padding-bottom: 0.5rem;
+}
+
+/* Simplifying Form Elements */
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+    /* Lighter borders */
+    border-radius: 0;
+    /* Removing border-radius for simplicity */
+    background: #fafafa;
+    /* Slight off-white background */
+}
+
+button {
+    background-color: #333;
+    /* Dark button for contrast */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+    /* Simple hover effect */
+}
