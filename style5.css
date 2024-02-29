@@ -119,3 +119,29 @@ button:hover {
     opacity: 0.9;
     /* Simple hover effect */
 }
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header,
+    nav,
+    section,
+    footer {
+        padding: 10px;
+    }
+
+    .profile-pic {
+        width: 80px;
+        height: 80px;
+    }
+}
